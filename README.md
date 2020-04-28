@@ -1,4 +1,4 @@
-# Interval timer
+#Interval timer
 
 Interval timer for interval training
 
