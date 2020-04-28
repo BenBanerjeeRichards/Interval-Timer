@@ -1,0 +1,32 @@
+body {
+    font-family: Verdana, serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 65%;
+}
+
+pre {
+    border: 1px solid;
+}
+
+#timer {
+    font-size: 17vw;
+}
+
+#current  {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+#next {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3.5vw;
+    color: #555;
+}

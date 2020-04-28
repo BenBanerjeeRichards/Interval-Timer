@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="schedules.js"></script>
+    <script src="timer.js"></script>
+</head>
+<body>
+    <div class="container" id="timer-container" style="display:none;">
+        <div id="timer">
+            <span id="minute">??</span>
+            <span id="sep">:</span>
+            <span id="second">??</span>
+        </div>
+
+        <div id="current">
+            ?
+        </div>
+        <div id="next">
+            ?
+        </div>
+
+    </div>
+
+    <div id="load-container" class="container">
+        <strong>Choose workout file: </strong><input type="file" id="uploadFile">
+
+        <p>Supply a CSV file which follows the below example - </p>
+
+        <pre>
+            10:00,Warm-up
+            3:30,Int 1
+        </pre>
+
+        The above specifies two intervals - a 10 minute wamup followed by a 3 minute 30 second interval.
+    </div>
+</body>
+</html>
